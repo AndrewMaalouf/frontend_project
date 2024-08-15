@@ -2,11 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, width=device-width, initial-scale=1">
+    <title>Simple Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>Hello</div>
-    <p>Hello my name is Andrew</p>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="logo/logo.svg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#form">Contact</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Welcome to My Page</h1>
+        <p>This is the banner section.</p>
+    </div>
+
+
+    <section id="cards">
+        <h2 class="service-title">Our Services</h2>
+        <div class="card">
+            <h3>Service 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="card">
+            <h3>Service 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="card">
+            <h3>Service 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form">
+        <h2 class="form-title">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2024 My Website</p>
+        <div>
+            <p>Follow Us: </p>
+            <img src="icons/facebook.svg" alt="facebook">
+            <img src="icons/insta.svg" alt="insta">
+        </div>
+    </footer>
 </body>
 </html>
