@@ -220,9 +220,6 @@ button:hover {
     padding: 1em 0;
 }
 
-.footer p {
-    margin: 0;
-}
 
 .footer .footer-left {
     position: absolute;
@@ -265,9 +262,19 @@ button:hover {
         width: 100%;
     }
 
-    .footer-icons .footer-left .footer-p{
+    .footer-icons .footer-left{
+        justify-content: center;
+        margin: 0 auto;
         flex-direction: column;
-        max-width: 80%;
-        position: absolute;
+        max-width: 100%;
+        position: relative;
     }
+    .form {
+        display: flex;
+        justify-content: center; /* Center the form horizontally */
+        align-items: center; /* Center the form vertically */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    
 }
