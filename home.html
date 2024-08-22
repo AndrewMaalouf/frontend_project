@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, width=device-width, initial-scale=1">
     <title>Page 1</title>
+    <link rel="icon" type="image/x-icon" href="logo/logo.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <nav>
-        <div class="logo">
-           <a href="#banner"> <img src="logo/logo.svg" alt="Logo"></a>
-        </div>
+        <a href="#banner"> <img src="logo/logo.svg" alt="Logo" class="logo"></a>
+
         <ul>
             <li><a href="#our-services">Services</a></li>
             <li><a href="#form">Contact</a></li>
@@ -32,14 +32,15 @@
 
         <section class="our-services" id="our-services">
             <h2 class="service-title">Our Services</h2>
-            <div class="cards">
+            <div class="cards container">
                 <div class="card">
                     <a href="#" class="card-link">
                         <div>
                             <img src="images/card1.jpg" alt="card1" class="card-img">
                         </div>
                         <h3>Service 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
                         <button class="card-button">Show service 1</button>
                     </a>
                 </div>
@@ -49,7 +50,8 @@
                             <img src="images/card2.jpg" alt="card2" class="card-img">
                         </div>
                         <h3>Service 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
                         <button class="card-button">Show service 2</button>
                     </a>
                 </div>
@@ -59,41 +61,42 @@
                             <img src="images/card3.jpg" alt="card3" class="card-img">
                         </div>
                         <h3>Service 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
                         <button class="card-button">Show service 3</button>
                     </a>
                 </div>
-                
+
             </div>
         </section>
 
         <!-- Form Section -->
         <h2 class="form-title">Contact Us</h2>
         <section id="form" class="form">
-            
+
             <form>
                 <div class="form-elements">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
 
-               <button type="submit" class="form-btn">Submit</button>
+                    <button type="submit" class="form-btn">Submit</button>
                 </div>
             </form>
         </section>
 
-       
+
 
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2024 My Website</p>
+        <span>&copy; 2024 My Website</span>
         <div class="footer-left">
             <p class="footer-p">Follow Us: </p>
             <a href="#"><img src="icons/facebook.svg" alt="facebook" class="footer-icons"></a>
