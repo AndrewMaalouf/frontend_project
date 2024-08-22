@@ -276,5 +276,17 @@ button:hover {
         padding: 20px;
         box-sizing: border-box;
     }
+
+    
+}
+
+@media (max-width: 768px){
+    .form-elements{
+        position: relative;
+        justify-content: center; /* Center the form horizontally */
+        align-items: center; /* Center the form vertically */
+        /* padding: 20px; */
+        max-width: fit-content;
+    }
     
 }
