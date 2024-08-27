@@ -272,7 +272,7 @@ button:hover {
 
     .form-elements {
         height: auto;
-        width: 100%;
+        width: 85%;
         padding: 1em;
         display: flex;
         flex-direction: column;
