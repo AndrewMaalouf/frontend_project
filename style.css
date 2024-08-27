@@ -241,13 +241,15 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .cards{
+    .cards {
         flex-direction: column;
         justify-content: center;
+        margin: 0 auto;
     }
 
+
     .card {
-        max-width: 80%; 
+        max-width: 100%; 
         margin: 1em auto;
     }
 
@@ -260,19 +262,12 @@ button:hover {
         width: 100%;
     }
 
-    .footer-icons .footer-left{
-        justify-content: center;
-        margin: 0 auto;
-        flex-direction: column;
-        max-width: 100%;
-        position: relative;
-    }
-
     .form {
         height: auto;
         width: 90%;
         padding: 1em;
         margin: auto;
+        border-radius: 0;
     }
 
     .form-elements {
@@ -283,6 +278,10 @@ button:hover {
         flex-direction: column;
         align-items: center;
         margin: 0.5em auto;
+    }
+
+    .form-btn{
+        margin-top: 2em;
     }
 
     form label {
@@ -301,6 +300,10 @@ button:hover {
 
     .footer-left {
         margin-top: 1em;
+    }
+    .overlay-text h1 {
+        font-size: calc(24px + 0.8vw);
+        white-space: nowrap;
     }
 }
 
